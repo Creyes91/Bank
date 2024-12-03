@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Bank</string>
+    <string name="concept">Concept</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="Money">€</string>
+    <string name="comments">Comments</string>
 </resources>
