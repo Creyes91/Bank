@@ -1,6 +1,6 @@
 package com.example.mybank.data
 
-class Movements (var quantity: Long,var concept: String,var date: String){
+class Movements(var id: Long, var quantity: Float, var concept: String, var date: String){
 
     companion object{
 

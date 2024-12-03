@@ -15,7 +15,7 @@ class DBManager (context: Context): SQLiteOpenHelper(context, DATABASE_NAME,null
         private const val  SQL_CREATE_TABLE =
             "CREATE TABLE ${Movements.TABLE_NAME} (" +
                     "${Movements.COLUMN_ID} INTEGER PRIMARY KEY AUTOINCREMENT," +
-                    "${Movements.COLUMN_QUANTITY} INTEGER," +
+                    "${Movements.COLUMN_QUANTITY} REAL," +
                     "${Movements.COLUMN_CONCEPT} INTEGER," +
                     "${Movements.COLUMN_DATE} TEXT)"
 

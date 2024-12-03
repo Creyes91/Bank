@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
-    tools:context=".DetailActivity">
+    tools:context=".avtivities.DetailActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/conceptMovementEditText"
@@ -74,6 +74,7 @@
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/comments"
